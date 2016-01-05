@@ -18,7 +18,6 @@
 		AD25BF3D1C2E095300376C5A /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AD25BF3C1C2E095300376C5A /* DatePicker.m */; };
 		AD8F7A2C1C2D056000F95450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8F7A2B1C2D056000F95450 /* main.m */; };
 		AD8F7A2F1C2D056000F95450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8F7A2E1C2D056000F95450 /* AppDelegate.m */; };
-		AD8F7A321C2D056000F95450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8F7A311C2D056000F95450 /* ViewController.m */; };
 		AD8F7A351C2D056000F95450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8F7A331C2D056000F95450 /* Main.storyboard */; };
 		AD8F7A371C2D056000F95450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8F7A361C2D056000F95450 /* Assets.xcassets */; };
 		AD8F7A3A1C2D056000F95450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8F7A381C2D056000F95450 /* LaunchScreen.storyboard */; };
@@ -52,8 +51,6 @@
 		AD8F7A2B1C2D056000F95450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD8F7A2D1C2D056000F95450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD8F7A2E1C2D056000F95450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD8F7A301C2D056000F95450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD8F7A311C2D056000F95450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AD8F7A341C2D056000F95450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD8F7A361C2D056000F95450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD8F7A391C2D056000F95450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,8 +137,6 @@
 				AD8F7A411C2D060A00F95450 /* Utilities */,
 				AD8F7A2D1C2D056000F95450 /* AppDelegate.h */,
 				AD8F7A2E1C2D056000F95450 /* AppDelegate.m */,
-				AD8F7A301C2D056000F95450 /* ViewController.h */,
-				AD8F7A311C2D056000F95450 /* ViewController.m */,
 				AD8F7A331C2D056000F95450 /* Main.storyboard */,
 				AD8F7A361C2D056000F95450 /* Assets.xcassets */,
 				AD8F7A381C2D056000F95450 /* LaunchScreen.storyboard */,
@@ -318,7 +313,6 @@
 			files = (
 				AD25BF2A1C2D23BA00376C5A /* NSString+Extensions.m in Sources */,
 				AD25BF3D1C2E095300376C5A /* DatePicker.m in Sources */,
-				AD8F7A321C2D056000F95450 /* ViewController.m in Sources */,
 				AD8F7A461C2D073C00F95450 /* CIOExtensions.m in Sources */,
 				AD25BF3A1C2E090000376C5A /* TimeRangeViewController.m in Sources */,
 				AD25BF231C2D1D4800376C5A /* ContactsViewController.m in Sources */,
