@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0041C862FA0AFA9ACCD026974291CEEC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04EA64D7B766C9C9CC12C0702911F4E /* Security.framework */; };
+		12D923165F3CEFC3F1FCC0924BF4EC98 /* CIOSourceRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = A006B63B7817D1CC38763E4C5C61A66A /* CIOSourceRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19A04920C9967DAC740D88B61CC2ED6F /* CIOContactsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711AD35DCFFB70ED0B0C665D538ADB3 /* CIOContactsRequest.m */; };
+		1EC25BB97E543B092EFAA2259281BBFE /* CIOLiteWebhookRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7DFD3EB35E1BF3BEE1D2EF28B253AA /* CIOLiteWebhookRequest.m */; };
+		24FCD5ED262CA65BD7D92E2F425CBA39 /* CIOLiteClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 421A294C024D03357AC90C819C1E562B /* CIOLiteClient.m */; };
+		29F5542CB1A60914BC9E8D66EEB6E728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD09E70086767FF09EFC830D70E7C3E /* Foundation.framework */; };
+		2F1A2699BF181D715550DA65AF245381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD09E70086767FF09EFC830D70E7C3E /* Foundation.framework */; };
+		32F99D86C85D3D7BF5758AC3DF2A2E34 /* CIOFilesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15228A21719A4EBE2C627E0A7D9279F1 /* CIOFilesRequest.m */; };
+		35782FF92F1A7D5506CBB14C10B46305 /* CIOAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C77A18EE2E4C77AD533B5C8985F28BA8 /* CIOAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B85A67015088F141207BD4FCF73668F /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 45324D7EBF3912629195469687BB2D8C /* OMGUserAgent.m */; };
+		3CC4A9A29BC0258D7E66B525571FFEE6 /* CIOAPISession.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D514BDCC6BC0782710C0960DCCC066 /* CIOAPISession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FCD2FD7DF30B301EFB97811B2CE5FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD09E70086767FF09EFC830D70E7C3E /* Foundation.framework */; };
+		40DCABD22D1DC9D23E662DA28B76A946 /* CIOSourceRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC87730D837F4DB5070FB593EE2628 /* CIOSourceRequests.m */; };
+		46489801AC7CFA063DFF76F883448A0B /* CIORequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BCEA032A8D26FA350170BA29600B0 /* CIORequest.m */; };
+		465D3EF7B8C3D7471E9CBAD10D6A30A5 /* CIOSearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFD620295FA36F5569C980AAD277237 /* CIOSearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		466D068CC1DF4C5F4B6FC80D577E65A4 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4E7E735324AEFB52633EA38974E629 /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF9DE934CC5914849B70AA1B6564C85 /* OMGUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A377E129AB25515E860ACE9336E9A93 /* OMGUserAgent.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5F7FF4F13B3746D28DD347344BD9680D /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B498242E5F886360B10B9049A1F040BA /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631F436CEDE5A22F03F4AE54400AF706 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D4554C06123E3076AA5ECF2D0A11C /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63826D2CB8618B99A1BCBBE607B74C8A /* CIOAPISession.m in Sources */ = {isa = PBXBuildFile; fileRef = A0435E551E5393E956A934217CE78C48 /* CIOAPISession.m */; };
+		63BC86C23F4DF15B7F58A127292C755D /* CIOLiteMessageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBF7DAB951EB7C4962A086F7C98CB0D /* CIOLiteMessageRequest.m */; };
+		6D9518DF827CDB1FD9F843A3852A9D21 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E47B2FE901F680A7AF143244F395FAB4 /* SVProgressHUD-dummy.m */; };
+		707395A4F6418FCCFD09FC55AB4E6429 /* CIOSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EDFCE0CFB9EAF8C283481FC12E41C7 /* CIOSearchRequest.m */; };
+		730944A99FC4027882822E05E5AAFA7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6152C0E4200F56D1004FCEF432C704C /* QuartzCore.framework */; };
+		7C6627D9ABB88D65A572DB9893D1A7F9 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		809C43AD8973BD3F7E6D4C12F58E77FE /* CIORequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E942B2E6AECB75D2A63520B17133D108 /* CIORequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8503D8A905909A63655DD1945265E450 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E19604B9AA71F640AA02C6ED2B3CE2A /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE522B54DE01B87CD8D7AA4E0CB4DC3 /* CIOMessageRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BAE897EE1CD3D3D94C34F1566E4756F /* CIOMessageRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948D5271CC8F67A7E9D5AB8A4B5C1393 /* CIOAPIClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B1E296BBFCA0C28614307423F0B9E /* CIOAPIClient-dummy.m */; };
+		9A7D5354C412179F1404007C41389ED4 /* CIOLiteMessageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFD8DBAEE012A0781D5516047CBE44D /* CIOLiteMessageRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D28CE3040E298C42C7D871A25BBEBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD09E70086767FF09EFC830D70E7C3E /* Foundation.framework */; };
+		AA053CD407ABD63380B654F192BAD006 /* CIOContactsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1FE3F6A62BB036147284A9227E854A /* CIOContactsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABDFE3DE0E1E7AC4AC59D652D80B9F3 /* CIOFilesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D92601883441F4D8A9891CC59588C5 /* CIOFilesRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFBD4769B30775291F8EE9575B62A19E /* TDOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 61110522484239D6E23CD94CDAFE6579 /* TDOAuth.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AFD07579FA2ECECB17C27CC6F3779F84 /* CIOMessageFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3950B29671D81E1808C534F02784F6 /* CIOMessageFlags.m */; };
+		AFFA84788CFE5AED9B42DBDA708ED678 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CF667056C3C108023766C4F3314CF7 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09AC30969E21B38C7AC1DDA5AA0EC05 /* CIOV2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84076B6A4389581A370FDA1F4670C9 /* CIOV2Client.m */; };
+		C141116FDBFFED7669390E7E78DE14F1 /* CIOAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 909B3E78B65B73F2E069755905D4DA38 /* CIOAPIClient.m */; };
+		C1C14FAE9838A08139E214CAF3DCDC6E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC80383B583EFBF0DA21143251AD1804 /* SVIndefiniteAnimatedView.m */; };
+		D0825EAD4A80193B8254439529A93A98 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A4454852199010589C5BEA18171CEA /* SVProgressHUD.m */; };
+		D2427D0BAF77A2BC9DDC60C80C6299A0 /* CIOAPIClientHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EA89EE311431CD56BBB4ABF112E58FD3 /* CIOAPIClientHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BAF5A393042D3B3C7A1D609085AC77 /* CIOV2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A31CA26C77B8B4EDE4A59F4E1C3AD0 /* CIOV2Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9CD753AA753FB5F0B3AE3C462E7943 /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412740DEA8BDC3ADB9BF195AD0E3274 /* SSKeychain-dummy.m */; };
+		E2A31C07F0E2599CC7ABBD8CFFFDF5BE /* CIOLiteWebhookRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DF944E4A245E58D27B111F160B7B94E3 /* CIOLiteWebhookRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46FB5E03036AB6AAFF6879407A83359 /* CIOMessageFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CDF3CFE0B176FD9D6E179C359240F5D /* CIOMessageFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9797945D8462A59BBF698310FE6DD05 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEBDE7FA29C335B4645E4560AAFAEB /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9A68D8027B799E40A19E82B2C97041B /* CIOMessageRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB31E9FABC8BAF7B7DC005DC9E657DE /* CIOMessageRequests.m */; };
+		EAE997CC508781B9072A96969909FC96 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636981E06E8A2CAF7FB3A80F1DD34AF /* TDOAuth.m */; };
+		EF39488BDE24AD2C3A3419183A3BB079 /* CIOLiteClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DA168059C76C59669A9DAD262D05D3AB /* CIOLiteClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE199636D87C326E6F8154968A04C477 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04EA64D7B766C9C9CC12C0702911F4E /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3480229FFC4039FDD809A3CFE388E0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4198DE7086AEE7FC26211F4387C7D1E7;
+			remoteInfo = SSKeychain;
+		};
+		5A5D1176DF6EF2DE6D9E68DD30345C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4198DE7086AEE7FC26211F4387C7D1E7;
+			remoteInfo = SSKeychain;
+		};
+		8954A4CD8EDF598F80703119BC94719E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1990BC700B4A170DF011B6152573E519;
+			remoteInfo = CIOAPIClient;
+		};
+		BA34A27874752F003F1A683D8E08B12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3371222D73F1FBBDCCBF13754FAFDD71;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0412740DEA8BDC3ADB9BF195AD0E3274 /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		05EDFCE0CFB9EAF8C283481FC12E41C7 /* CIOSearchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOSearchRequest.m; path = CIOAPIClient/CIOSearchRequest.m; sourceTree = "<group>"; };
+		09D514BDCC6BC0782710C0960DCCC066 /* CIOAPISession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOAPISession.h; path = CIOAPIClient/CIOAPISession.h; sourceTree = "<group>"; };
+		0E19604B9AA71F640AA02C6ED2B3CE2A /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		10CFE6072CF3572737F5360CEE3A7D95 /* libCIOAPIClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCIOAPIClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15228A21719A4EBE2C627E0A7D9279F1 /* CIOFilesRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOFilesRequest.m; path = CIOAPIClient/CIOFilesRequest.m; sourceTree = "<group>"; };
+		16CF667056C3C108023766C4F3314CF7 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		1CDF3CFE0B176FD9D6E179C359240F5D /* CIOMessageFlags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOMessageFlags.h; path = CIOAPIClient/CIOMessageFlags.h; sourceTree = "<group>"; };
+		1CFD8DBAEE012A0781D5516047CBE44D /* CIOLiteMessageRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOLiteMessageRequest.h; path = CIOAPIClient/CIOLiteMessageRequest.h; sourceTree = "<group>"; };
+		1EBF7DAB951EB7C4962A086F7C98CB0D /* CIOLiteMessageRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOLiteMessageRequest.m; path = CIOAPIClient/CIOLiteMessageRequest.m; sourceTree = "<group>"; };
+		25C5123A209787314C5CBF5E3C993289 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2AB31E9FABC8BAF7B7DC005DC9E657DE /* CIOMessageRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOMessageRequests.m; path = CIOAPIClient/CIOMessageRequests.m; sourceTree = "<group>"; };
+		2BFEBDE7FA29C335B4645E4560AAFAEB /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38C1D1E2D6DDDA34961C56AEC0D6AFB2 /* CIOAPIClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CIOAPIClient.xcconfig; sourceTree = "<group>"; };
+		3A377E129AB25515E860ACE9336E9A93 /* OMGUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGUserAgent.h; path = CIOAPIClient/Vendor/OMGHTTPURLRQ/OMGUserAgent.h; sourceTree = "<group>"; };
+		3D2C2287AC6E0F742CC1F25EFC49D7E9 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		3F3950B29671D81E1808C534F02784F6 /* CIOMessageFlags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOMessageFlags.m; path = CIOAPIClient/CIOMessageFlags.m; sourceTree = "<group>"; };
+		3FFC96F7E2437AD4B72C1D337E36BD10 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		421A294C024D03357AC90C819C1E562B /* CIOLiteClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOLiteClient.m; path = CIOAPIClient/CIOLiteClient.m; sourceTree = "<group>"; };
+		45324D7EBF3912629195469687BB2D8C /* OMGUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGUserAgent.m; path = CIOAPIClient/Vendor/OMGHTTPURLRQ/OMGUserAgent.m; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4F9B1E296BBFCA0C28614307423F0B9E /* CIOAPIClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CIOAPIClient-dummy.m"; sourceTree = "<group>"; };
+		5C3BCEA032A8D26FA350170BA29600B0 /* CIORequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIORequest.m; path = CIOAPIClient/CIORequest.m; sourceTree = "<group>"; };
+		61110522484239D6E23CD94CDAFE6579 /* TDOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDOAuth.h; path = CIOAPIClient/Vendor/TDOAuth/TDOAuth.h; sourceTree = "<group>"; };
+		6636981E06E8A2CAF7FB3A80F1DD34AF /* TDOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDOAuth.m; path = CIOAPIClient/Vendor/TDOAuth/TDOAuth.m; sourceTree = "<group>"; };
+		6711AD35DCFFB70ED0B0C665D538ADB3 /* CIOContactsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOContactsRequest.m; path = CIOAPIClient/CIOContactsRequest.m; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		7C29804902971ACA007FBB2B5DDA6F2C /* CIOAPIClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CIOAPIClient-prefix.pch"; sourceTree = "<group>"; };
+		7CFD620295FA36F5569C980AAD277237 /* CIOSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOSearchRequest.h; path = CIOAPIClient/CIOSearchRequest.h; sourceTree = "<group>"; };
+		87A31CA26C77B8B4EDE4A59F4E1C3AD0 /* CIOV2Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOV2Client.h; path = CIOAPIClient/CIOV2Client.h; sourceTree = "<group>"; };
+		8BAE897EE1CD3D3D94C34F1566E4756F /* CIOMessageRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOMessageRequests.h; path = CIOAPIClient/CIOMessageRequests.h; sourceTree = "<group>"; };
+		8C1FE3F6A62BB036147284A9227E854A /* CIOContactsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOContactsRequest.h; path = CIOAPIClient/CIOContactsRequest.h; sourceTree = "<group>"; };
+		909B3E78B65B73F2E069755905D4DA38 /* CIOAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOAPIClient.m; path = CIOAPIClient/CIOAPIClient.m; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9A84076B6A4389581A370FDA1F4670C9 /* CIOV2Client.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOV2Client.m; path = CIOAPIClient/CIOV2Client.m; sourceTree = "<group>"; };
+		9D7DFD3EB35E1BF3BEE1D2EF28B253AA /* CIOLiteWebhookRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOLiteWebhookRequest.m; path = CIOAPIClient/CIOLiteWebhookRequest.m; sourceTree = "<group>"; };
+		A006B63B7817D1CC38763E4C5C61A66A /* CIOSourceRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOSourceRequests.h; path = CIOAPIClient/CIOSourceRequests.h; sourceTree = "<group>"; };
+		A0435E551E5393E956A934217CE78C48 /* CIOAPISession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOAPISession.m; path = CIOAPIClient/CIOAPISession.m; sourceTree = "<group>"; };
+		A04EA64D7B766C9C9CC12C0702911F4E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		A0642C2280EC6727CC9B8D11F4CD1D16 /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A3D92601883441F4D8A9891CC59588C5 /* CIOFilesRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOFilesRequest.h; path = CIOAPIClient/CIOFilesRequest.h; sourceTree = "<group>"; };
+		A55703A85AD83EB79F399E27B855C5A0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B498242E5F886360B10B9049A1F040BA /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B6A4454852199010589C5BEA18171CEA /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		B70D4554C06123E3076AA5ECF2D0A11C /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC80383B583EFBF0DA21143251AD1804 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		C77A18EE2E4C77AD533B5C8985F28BA8 /* CIOAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOAPIClient.h; path = CIOAPIClient/CIOAPIClient.h; sourceTree = "<group>"; };
+		CF4E7E735324AEFB52633EA38974E629 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		D6152C0E4200F56D1004FCEF432C704C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D708016B3E2A7DBD6A2246EDF4B83B60 /* libSSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA168059C76C59669A9DAD262D05D3AB /* CIOLiteClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOLiteClient.h; path = CIOAPIClient/CIOLiteClient.h; sourceTree = "<group>"; };
+		DDF2629E25F3F0F170FF1FFBC0AAE4E5 /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		DF944E4A245E58D27B111F160B7B94E3 /* CIOLiteWebhookRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOLiteWebhookRequest.h; path = CIOAPIClient/CIOLiteWebhookRequest.h; sourceTree = "<group>"; };
+		E04ECF019583446AEE83FA88D4ABB2E1 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47B2FE901F680A7AF143244F395FAB4 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E942B2E6AECB75D2A63520B17133D108 /* CIORequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIORequest.h; path = CIOAPIClient/CIORequest.h; sourceTree = "<group>"; };
+		EA89EE311431CD56BBB4ABF112E58FD3 /* CIOAPIClientHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CIOAPIClientHeader.h; path = CIOAPIClient/CIOAPIClientHeader.h; sourceTree = "<group>"; };
+		F3FC87730D837F4DB5070FB593EE2628 /* CIOSourceRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CIOSourceRequests.m; path = CIOAPIClient/CIOSourceRequests.m; sourceTree = "<group>"; };
+		FAD09E70086767FF09EFC830D70E7C3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1560D716CC0770C4B326802F217CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1A2699BF181D715550DA65AF245381 /* Foundation.framework in Frameworks */,
+				FE199636D87C326E6F8154968A04C477 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2990F301708EEA770300ED2DD2A8FEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D28CE3040E298C42C7D871A25BBEBF /* Foundation.framework in Frameworks */,
+				0041C862FA0AFA9ACCD026974291CEEC /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACB4DC37DBD81BDD40C2BDAA6ECE5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD2FD7DF30B301EFB97811B2CE5FD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1FACD3E0247D56FABF50BF2AAE390E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F5542CB1A60914BC9E8D66EEB6E728 /* Foundation.framework in Frameworks */,
+				730944A99FC4027882822E05E5AAFA7D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2ACD9CF3B0E3C89F1DE025219EF67B7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBB26E43C577ABC9F6515600DA55C54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A55703A85AD83EB79F399E27B855C5A0 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6350157A5BF7ED4B051F332547A8091B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE18E9C39465712E0A00C7E8B3160425 /* CIOAPIClient */,
+				79DD48FCAEEE546CF8E12F79EF0CB76B /* SSKeychain */,
+				B53D366F86715264CE6387C3F994EDDF /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79DD48FCAEEE546CF8E12F79EF0CB76B /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				16CF667056C3C108023766C4F3314CF7 /* SSKeychain.h */,
+				B70D4554C06123E3076AA5ECF2D0A11C /* SSKeychain.m */,
+				CF4E7E735324AEFB52633EA38974E629 /* SSKeychainQuery.h */,
+				2BFEBDE7FA29C335B4645E4560AAFAEB /* SSKeychainQuery.m */,
+				9E33DC4B4FF14ED2820CB71095EFB7A7 /* Support Files */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				6350157A5BF7ED4B051F332547A8091B /* Pods */,
+				C765A88172AD3E1203C6E5CE5B710D44 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C84B32673F9883E0FD3959C4881D745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D2C2287AC6E0F742CC1F25EFC49D7E9 /* SVProgressHUD.xcconfig */,
+				E47B2FE901F680A7AF143244F395FAB4 /* SVProgressHUD-dummy.m */,
+				25C5123A209787314C5CBF5E3C993289 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		9E33DC4B4FF14ED2820CB71095EFB7A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0642C2280EC6727CC9B8D11F4CD1D16 /* SSKeychain.xcconfig */,
+				0412740DEA8BDC3ADB9BF195AD0E3274 /* SSKeychain-dummy.m */,
+				DDF2629E25F3F0F170FF1FFBC0AAE4E5 /* SSKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
+			sourceTree = "<group>";
+		};
+		AE18E9C39465712E0A00C7E8B3160425 /* CIOAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				C77A18EE2E4C77AD533B5C8985F28BA8 /* CIOAPIClient.h */,
+				909B3E78B65B73F2E069755905D4DA38 /* CIOAPIClient.m */,
+				EA89EE311431CD56BBB4ABF112E58FD3 /* CIOAPIClientHeader.h */,
+				09D514BDCC6BC0782710C0960DCCC066 /* CIOAPISession.h */,
+				A0435E551E5393E956A934217CE78C48 /* CIOAPISession.m */,
+				8C1FE3F6A62BB036147284A9227E854A /* CIOContactsRequest.h */,
+				6711AD35DCFFB70ED0B0C665D538ADB3 /* CIOContactsRequest.m */,
+				A3D92601883441F4D8A9891CC59588C5 /* CIOFilesRequest.h */,
+				15228A21719A4EBE2C627E0A7D9279F1 /* CIOFilesRequest.m */,
+				DA168059C76C59669A9DAD262D05D3AB /* CIOLiteClient.h */,
+				421A294C024D03357AC90C819C1E562B /* CIOLiteClient.m */,
+				1CFD8DBAEE012A0781D5516047CBE44D /* CIOLiteMessageRequest.h */,
+				1EBF7DAB951EB7C4962A086F7C98CB0D /* CIOLiteMessageRequest.m */,
+				DF944E4A245E58D27B111F160B7B94E3 /* CIOLiteWebhookRequest.h */,
+				9D7DFD3EB35E1BF3BEE1D2EF28B253AA /* CIOLiteWebhookRequest.m */,
+				1CDF3CFE0B176FD9D6E179C359240F5D /* CIOMessageFlags.h */,
+				3F3950B29671D81E1808C534F02784F6 /* CIOMessageFlags.m */,
+				8BAE897EE1CD3D3D94C34F1566E4756F /* CIOMessageRequests.h */,
+				2AB31E9FABC8BAF7B7DC005DC9E657DE /* CIOMessageRequests.m */,
+				E942B2E6AECB75D2A63520B17133D108 /* CIORequest.h */,
+				5C3BCEA032A8D26FA350170BA29600B0 /* CIORequest.m */,
+				7CFD620295FA36F5569C980AAD277237 /* CIOSearchRequest.h */,
+				05EDFCE0CFB9EAF8C283481FC12E41C7 /* CIOSearchRequest.m */,
+				A006B63B7817D1CC38763E4C5C61A66A /* CIOSourceRequests.h */,
+				F3FC87730D837F4DB5070FB593EE2628 /* CIOSourceRequests.m */,
+				87A31CA26C77B8B4EDE4A59F4E1C3AD0 /* CIOV2Client.h */,
+				9A84076B6A4389581A370FDA1F4670C9 /* CIOV2Client.m */,
+				3A377E129AB25515E860ACE9336E9A93 /* OMGUserAgent.h */,
+				45324D7EBF3912629195469687BB2D8C /* OMGUserAgent.m */,
+				61110522484239D6E23CD94CDAFE6579 /* TDOAuth.h */,
+				6636981E06E8A2CAF7FB3A80F1DD34AF /* TDOAuth.m */,
+				F592A009116E4B0B187B2D415DADA43B /* Support Files */,
+			);
+			path = CIOAPIClient;
+			sourceTree = "<group>";
+		};
+		B2ACD9CF3B0E3C89F1DE025219EF67B7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAD09E70086767FF09EFC830D70E7C3E /* Foundation.framework */,
+				D6152C0E4200F56D1004FCEF432C704C /* QuartzCore.framework */,
+				A04EA64D7B766C9C9CC12C0702911F4E /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B53D366F86715264CE6387C3F994EDDF /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B498242E5F886360B10B9049A1F040BA /* SVIndefiniteAnimatedView.h */,
+				BC80383B583EFBF0DA21143251AD1804 /* SVIndefiniteAnimatedView.m */,
+				0E19604B9AA71F640AA02C6ED2B3CE2A /* SVProgressHUD.h */,
+				B6A4454852199010589C5BEA18171CEA /* SVProgressHUD.m */,
+				4CBB26E43C577ABC9F6515600DA55C54 /* Resources */,
+				9C84B32673F9883E0FD3959C4881D745 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		C765A88172AD3E1203C6E5CE5B710D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CFE6072CF3572737F5360CEE3A7D95 /* libCIOAPIClient.a */,
+				3FFC96F7E2437AD4B72C1D337E36BD10 /* libPods.a */,
+				D708016B3E2A7DBD6A2246EDF4B83B60 /* libSSKeychain.a */,
+				E04ECF019583446AEE83FA88D4ABB2E1 /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F592A009116E4B0B187B2D415DADA43B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C1D1E2D6DDDA34961C56AEC0D6AFB2 /* CIOAPIClient.xcconfig */,
+				4F9B1E296BBFCA0C28614307423F0B9E /* CIOAPIClient-dummy.m */,
+				7C29804902971ACA007FBB2B5DDA6F2C /* CIOAPIClient-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CIOAPIClient";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B9F6E20F697E5B9EB823905C3A188D76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7FF4F13B3746D28DD347344BD9680D /* SVIndefiniteAnimatedView.h in Headers */,
+				8503D8A905909A63655DD1945265E450 /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04DB7EAE39D5EE9D14D08E3538F314A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA84788CFE5AED9B42DBDA708ED678 /* SSKeychain.h in Headers */,
+				466D068CC1DF4C5F4B6FC80D577E65A4 /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D9998A478EA301C17704B9E4259131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35782FF92F1A7D5506CBB14C10B46305 /* CIOAPIClient.h in Headers */,
+				D2427D0BAF77A2BC9DDC60C80C6299A0 /* CIOAPIClientHeader.h in Headers */,
+				3CC4A9A29BC0258D7E66B525571FFEE6 /* CIOAPISession.h in Headers */,
+				AA053CD407ABD63380B654F192BAD006 /* CIOContactsRequest.h in Headers */,
+				AABDFE3DE0E1E7AC4AC59D652D80B9F3 /* CIOFilesRequest.h in Headers */,
+				EF39488BDE24AD2C3A3419183A3BB079 /* CIOLiteClient.h in Headers */,
+				9A7D5354C412179F1404007C41389ED4 /* CIOLiteMessageRequest.h in Headers */,
+				E2A31C07F0E2599CC7ABBD8CFFFDF5BE /* CIOLiteWebhookRequest.h in Headers */,
+				E46FB5E03036AB6AAFF6879407A83359 /* CIOMessageFlags.h in Headers */,
+				8AE522B54DE01B87CD8D7AA4E0CB4DC3 /* CIOMessageRequests.h in Headers */,
+				809C43AD8973BD3F7E6D4C12F58E77FE /* CIORequest.h in Headers */,
+				465D3EF7B8C3D7471E9CBAD10D6A30A5 /* CIOSearchRequest.h in Headers */,
+				12D923165F3CEFC3F1FCC0924BF4EC98 /* CIOSourceRequests.h in Headers */,
+				D7BAF5A393042D3B3C7A1D609085AC77 /* CIOV2Client.h in Headers */,
+				4DF9DE934CC5914849B70AA1B6564C85 /* OMGUserAgent.h in Headers */,
+				AFBD4769B30775291F8EE9575B62A19E /* TDOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1990BC700B4A170DF011B6152573E519 /* CIOAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A663E7AA6EFDCF384A78DD6DEA4342 /* Build configuration list for PBXNativeTarget "CIOAPIClient" */;
+			buildPhases = (
+				1E1FE273B8CC78DE85288A1843C70C73 /* Sources */,
+				0A1560D716CC0770C4B326802F217CCD /* Frameworks */,
+				E3D9998A478EA301C17704B9E4259131 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27B141351A646B48F2F58F52C3FDE704 /* PBXTargetDependency */,
+			);
+			name = CIOAPIClient;
+			productName = CIOAPIClient;
+			productReference = 10CFE6072CF3572737F5360CEE3A7D95 /* libCIOAPIClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3371222D73F1FBBDCCBF13754FAFDD71 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD1F77EDA49720A225AF814AED7110E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				74A94D039A3C9E72CA1ECD3FE4F3C6ED /* Sources */,
+				FA1FACD3E0247D56FABF50BF2AAE390E /* Frameworks */,
+				B9F6E20F697E5B9EB823905C3A188D76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E04ECF019583446AEE83FA88D4ABB2E1 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4198DE7086AEE7FC26211F4387C7D1E7 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06F155C54BC958B20EF8D000A042DCA /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				C7AA31CD915A123672625ED0A952C0FA /* Sources */,
+				2990F301708EEA770300ED2DD2A8FEE7 /* Frameworks */,
+				D04DB7EAE39D5EE9D14D08E3538F314A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = D708016B3E2A7DBD6A2246EDF4B83B60 /* libSSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92D47ACF4F553DC62A8FA62F1C239668 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F3DA6BF4326CE9F7EA346DE7DC196E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				1E3487C88A1C795F0CD6EDAF599A14F4 /* Sources */,
+				9ACB4DC37DBD81BDD40C2BDAA6ECE5DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E0CBD97F3A90E712A746C14FA78753 /* PBXTargetDependency */,
+				635FE03F6A6E5CF99E129D24D9413D6C /* PBXTargetDependency */,
+				9B7564BDD8BA3AAFA15191F769206B5A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3FFC96F7E2437AD4B72C1D337E36BD10 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C765A88172AD3E1203C6E5CE5B710D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1990BC700B4A170DF011B6152573E519 /* CIOAPIClient */,
+				92D47ACF4F553DC62A8FA62F1C239668 /* Pods */,
+				4198DE7086AEE7FC26211F4387C7D1E7 /* SSKeychain */,
+				3371222D73F1FBBDCCBF13754FAFDD71 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E1FE273B8CC78DE85288A1843C70C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948D5271CC8F67A7E9D5AB8A4B5C1393 /* CIOAPIClient-dummy.m in Sources */,
+				C141116FDBFFED7669390E7E78DE14F1 /* CIOAPIClient.m in Sources */,
+				63826D2CB8618B99A1BCBBE607B74C8A /* CIOAPISession.m in Sources */,
+				19A04920C9967DAC740D88B61CC2ED6F /* CIOContactsRequest.m in Sources */,
+				32F99D86C85D3D7BF5758AC3DF2A2E34 /* CIOFilesRequest.m in Sources */,
+				24FCD5ED262CA65BD7D92E2F425CBA39 /* CIOLiteClient.m in Sources */,
+				63BC86C23F4DF15B7F58A127292C755D /* CIOLiteMessageRequest.m in Sources */,
+				1EC25BB97E543B092EFAA2259281BBFE /* CIOLiteWebhookRequest.m in Sources */,
+				AFD07579FA2ECECB17C27CC6F3779F84 /* CIOMessageFlags.m in Sources */,
+				E9A68D8027B799E40A19E82B2C97041B /* CIOMessageRequests.m in Sources */,
+				46489801AC7CFA063DFF76F883448A0B /* CIORequest.m in Sources */,
+				707395A4F6418FCCFD09FC55AB4E6429 /* CIOSearchRequest.m in Sources */,
+				40DCABD22D1DC9D23E662DA28B76A946 /* CIOSourceRequests.m in Sources */,
+				C09AC30969E21B38C7AC1DDA5AA0EC05 /* CIOV2Client.m in Sources */,
+				3B85A67015088F141207BD4FCF73668F /* OMGUserAgent.m in Sources */,
+				EAE997CC508781B9072A96969909FC96 /* TDOAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3487C88A1C795F0CD6EDAF599A14F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6627D9ABB88D65A572DB9893D1A7F9 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A94D039A3C9E72CA1ECD3FE4F3C6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C14FAE9838A08139E214CAF3DCDC6E /* SVIndefiniteAnimatedView.m in Sources */,
+				6D9518DF827CDB1FD9F843A3852A9D21 /* SVProgressHUD-dummy.m in Sources */,
+				D0825EAD4A80193B8254439529A93A98 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7AA31CD915A123672625ED0A952C0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9CD753AA753FB5F0B3AE3C462E7943 /* SSKeychain-dummy.m in Sources */,
+				631F436CEDE5A22F03F4AE54400AF706 /* SSKeychain.m in Sources */,
+				E9797945D8462A59BBF698310FE6DD05 /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27B141351A646B48F2F58F52C3FDE704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = 4198DE7086AEE7FC26211F4387C7D1E7 /* SSKeychain */;
+			targetProxy = 3480229FFC4039FDD809A3CFE388E0DA /* PBXContainerItemProxy */;
+		};
+		635FE03F6A6E5CF99E129D24D9413D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = 4198DE7086AEE7FC26211F4387C7D1E7 /* SSKeychain */;
+			targetProxy = 5A5D1176DF6EF2DE6D9E68DD30345C2C /* PBXContainerItemProxy */;
+		};
+		9B7564BDD8BA3AAFA15191F769206B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 3371222D73F1FBBDCCBF13754FAFDD71 /* SVProgressHUD */;
+			targetProxy = BA34A27874752F003F1A683D8E08B12F /* PBXContainerItemProxy */;
+		};
+		D9E0CBD97F3A90E712A746C14FA78753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CIOAPIClient;
+			target = 1990BC700B4A170DF011B6152573E519 /* CIOAPIClient */;
+			targetProxy = 8954A4CD8EDF598F80703119BC94719E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C13DB844AF2172690C3A02A5E7F5407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C1D1E2D6DDDA34961C56AEC0D6AFB2 /* CIOAPIClient.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CIOAPIClient/CIOAPIClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A97B4D33E852EFFD352355E48E7AB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2C2287AC6E0F742CC1F25EFC49D7E9 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A748137B4C6BB77B640FDE5F7F97E30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C1D1E2D6DDDA34961C56AEC0D6AFB2 /* CIOAPIClient.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CIOAPIClient/CIOAPIClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1ECBB29C9E7EF05D16533DE52F4BDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0642C2280EC6727CC9B8D11F4CD1D16 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDF8861C9A85D49A8CCE55893BE23825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E16364304663A9FB87D926F88E1E27F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E607FC47D2CFC3B6858D7C613B639554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2C2287AC6E0F742CC1F25EFC49D7E9 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F5C1539D0B486F343F58B6840C30C7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0642C2280EC6727CC9B8D11F4CD1D16 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F3DA6BF4326CE9F7EA346DE7DC196E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8861C9A85D49A8CCE55893BE23825 /* Debug */,
+				E16364304663A9FB87D926F88E1E27F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A06F155C54BC958B20EF8D000A042DCA /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ECBB29C9E7EF05D16533DE52F4BDDD /* Debug */,
+				F5C1539D0B486F343F58B6840C30C7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A663E7AA6EFDCF384A78DD6DEA4342 /* Build configuration list for PBXNativeTarget "CIOAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A748137B4C6BB77B640FDE5F7F97E30D /* Debug */,
+				0C13DB844AF2172690C3A02A5E7F5407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD1F77EDA49720A225AF814AED7110E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A97B4D33E852EFFD352355E48E7AB4D /* Debug */,
+				E607FC47D2CFC3B6858D7C613B639554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

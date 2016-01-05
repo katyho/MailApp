@@ -1,0 +1,16 @@
+PODS:
+  - CIOAPIClient (1.0):
+    - SSKeychain (~> 1)
+  - SSKeychain (1.3.1)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - CIOAPIClient (~> 1.0)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CIOAPIClient: ef79574ee75578b166740544290877f23f53899c
+  SSKeychain: 04c4ec40f4c3deda524e269bc76e5f30e638a174
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.39.0
